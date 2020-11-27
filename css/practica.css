@@ -13,7 +13,7 @@ body {
 
 .contenedor {
 	width: 1000px;
-	margin: 20px;
+	margin: 20px auto;
 	overflow: hidden;
 
 }
@@ -126,7 +126,7 @@ aside .widget p{
 }
 
 footer{
-	width: 100%;
+	width: 700px;
 	overflow: hidden;
 	background: #000;
 	color: #fff;
