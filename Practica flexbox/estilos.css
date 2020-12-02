@@ -36,3 +36,25 @@ header .menu a{
 header .menu a:hover{
 	text-decoration: underline;
 }
+
+.main {
+	padding: 20px;
+	background: #fff;
+	width: 70%;
+}
+
+.main article .thumb {
+	margin-bottom: 20px;
+}
+
+.main article .thumb img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.main article h2{
+	margin-bottom: 20px;
+	font-weight: normal;
+	font-size: 30px;
+}
+
