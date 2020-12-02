@@ -15,6 +15,9 @@ body {
 	margin:auto;
 	width: 90%;
 	max-width: 1000px; 
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 header {
@@ -57,4 +60,50 @@ header .menu a:hover{
 	font-weight: normal;
 	font-size: 30px;
 }
+
+.main article p{
+	margin-bottom: 20px;
+	font-size: 14px;
+	line-height: 27px;
+}
+
+aside {
+	width:30%;
+	background:#353EAC;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+aside .ad {
+	font-size: 40px;
+	text-align: center;
+	padding: 50px 0;
+	background: #2A3083;
+}
+
+footer {
+	margin: 20px 0;
+	background: rgba(255,255,255,.2);
+	padding: 20px;
+	color: #fff;
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+footer .redes a{
+	color:#fff;
+	text-decoration:underline;
+	margin-left: 20px;	
+}
+
+footer .redes a:hover{
+	text-decoration: none;
+}
+
 
