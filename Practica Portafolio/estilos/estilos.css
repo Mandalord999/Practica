@@ -152,6 +152,7 @@ header .contenedor-texto .texto .profession{
 .main .trabajos .contenedor-trabajos .trabajo {
 
 	width: 30%;
+	margin-bottom: 40px;
 
 }
 
@@ -164,6 +165,24 @@ header .contenedor-texto .texto .profession{
 	width: 100%;
 	vertical-align: top;
 	height: 250px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion {
+
+	text-align: center;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .nombre{
+
+	color: #3895ea;
+	margin-bottom: 10px;
+}
+
+.main .trabajos .contenedor-trabajos .trabajo .descripcion .categoria{
+
+	color: #636363;
+	font-size: 14px;
+
 }
 
 
