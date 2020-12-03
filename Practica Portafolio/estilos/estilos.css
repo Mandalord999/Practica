@@ -21,7 +21,7 @@ header {
 	background: url('../img/fondo.jpg');
 	background-repeat: no-repeat;
 	background-position: center; 
-	max-height: 600px;
+	/*max-height: 600px;*/
 	background-size: 100%;
 
 
@@ -131,7 +131,7 @@ header .contenedor-texto .texto .profession{
 }
 
 .main .trabajos .contenedor {
-	/*overflow: hidden;*/
+	overflow: hidden;
 }
 
 .main .trabajos .titulo{
@@ -165,6 +165,7 @@ header .contenedor-texto .texto .profession{
 	width: 100%;
 	vertical-align: top;
 	height: 250px;
+	border-radius: 5px;
 }
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion {
@@ -185,6 +186,115 @@ header .contenedor-texto .texto .profession{
 
 }
 
+
+/*----------------------------------- FOOTER ---------------------------------------*/
+
+footer .contacto {
+
+	padding: 60px 0;
+	/*background: #a7a9ac;*/
+	width: 100%;
+}
+
+footer .contacto .titulo{
+
+		font-size: 28px;
+	margin-bottom: 40px;
+	color: #000;
+	line-height: 34px;
+	text-align: center;
+}
+
+footer .contacto .formulario{
+
+	display: flex;
+	/*flex-direction: row;*/
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"],
+footer .contacto .formulario textarea {
+	border: 2px solid #cecece;
+	border-radius: 5px;
+	padding: 15px 20px;
+	font-size: 20px;
+	color: #a4a4a4;
+	font-size: 14px;
+	margin-bottom: 15px;
+} 
+
+footer .contacto .formulario input[type="text"]:focus,
+footer .contacto .formulario input[type="email"]:focus,
+footer .contacto .formulario textarea:focus{
+	border: 2px solid #3895ea;
+}
+
+footer .contacto .formulario input[type="text"],
+footer .contacto .formulario input[type="email"]{
+	width: 48%;
+	/*margin-bottom: 15px;*/
+}
+
+footer .contacto .formulario textarea {
+	width: 100%;
+	min-width: 100%;
+	height: 100px;
+	min-height: 100px;
+	max-height: 200px;
+	/*margin-bottom: 15px;*/
+}
+
+footer .contacto .formulario .btn{
+	text-align: center;
+	font-size: 16px;
+	padding: 14px 35px;
+	border-radius: 3px;
+	color: #fff;
+	background:#0359EA;
+	border: none ;
+	margin: auto;
+	cursor: pointer;
+}
+
+footer .contacto .formulario .btn:hover{
+	background:#2003EA;
+}
+
+footer .redes {
+	background: #090134;
+	padding: 40px 0;
+}
+
+footer .redes .contenedor{
+	display: flex;
+	justify-content: center;
+
+}
+
+footer .redes a{
+
+	color: #fff;
+	text-align: center;
+	width: 100px;
+	display: block;
+	padding: 15px 0;
+	border-radius: 3px;
+	font-size: 35px;
+	margin: 0 20px;
+}
+
+footer .redes .facebook:hover{
+
+	background:#3b5998;
+}
+
+footer .redes .github:hover{
+
+	background:#c9510c;
+}
 
 
 
