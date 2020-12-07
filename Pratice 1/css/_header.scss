@@ -1,0 +1,26 @@
+header {
+    background: #fff;
+    nav {
+        width: 100%;
+        ul {
+            width: 100%;
+            overflow: hidden;
+            list-style: none;
+            li {
+                float: left;
+                a {
+                    display: inline-block;
+                    text-decoration: none;
+                    padding: 15px 20px;
+                    color: #000;
+                    &:hover {
+                        background: #7C7C7C;
+                        color: #fff;
+                    }
+                }
+            }
+        
+        }
+    }
+
+}
