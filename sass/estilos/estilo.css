@@ -46,4 +46,30 @@ footer {
   background: #fd003f;
   color: #fff;
 }
+
+footer h4 {
+  margin-bottom: 20px;
+}
+
+.boton, .btn-rojo, .btn-azul, .btn-verde {
+  display: inline-block;
+  padding: 15px 20px;
+  background: none;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.btn-rojo {
+  background: #f30000;
+}
+
+.btn-azul {
+  background: #00179b;
+}
+
+.btn-verde {
+  background: #11cc00;
+}
 /*# sourceMappingURL=estilo.css.map */
